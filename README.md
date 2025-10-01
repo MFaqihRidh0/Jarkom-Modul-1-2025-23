@@ -38,10 +38,7 @@ Membutuhkan banyak percobaan untuk berfungsi
 
 3. 
 
-<img width="890" height="211" alt="Screenshot 2025-10-01 133703" src="https://github.com/user-attachments/assets/d228544e-ee78-4ebc-a08b-f7cc58d309af" />
-<img width="824" height="218" alt="Screenshot 2025-10-01 134439" src="https://github.com/user-attachments/assets/52475397-3443-44a6-bce5-8187a217096e" />
-<img width="871" height="168" alt="Screenshot 2025-10-01 134523" src="https://github.com/user-attachments/assets/b42133c0-0193-4041-930b-eecaacd93326" />
-<img width="859" height="218" alt="Screenshot 2025-10-01 135411" src="https://github.com/user-attachments/assets/5d0685a4-ac74-46a2-9af4-428a0da497cc" />
+<img width="860" height="588" alt="Screenshot 2025-10-01 131312" src="https://github.com/user-attachments/assets/2a7cb827-2a65-4753-bc02-863bffb7bd2f" />
 
 Langkah pengerjaan:
 Sambungkan Melkor dan Manwe ke Switch1
@@ -56,6 +53,10 @@ Tidak ada kendala sama sekali
 
 4. 
 
+<img width="890" height="211" alt="Screenshot 2025-10-01 133703" src="https://github.com/user-attachments/assets/d228544e-ee78-4ebc-a08b-f7cc58d309af" />
+<img width="824" height="218" alt="Screenshot 2025-10-01 134439" src="https://github.com/user-attachments/assets/52475397-3443-44a6-bce5-8187a217096e" />
+<img width="871" height="168" alt="Screenshot 2025-10-01 134523" src="https://github.com/user-attachments/assets/b42133c0-0193-4041-930b-eecaacd93326" />
+<img width="859" height="218" alt="Screenshot 2025-10-01 135411" src="https://github.com/user-attachments/assets/5d0685a4-ac74-46a2-9af4-428a0da497cc" />
 
 
 

@@ -68,7 +68,11 @@ Cek apakah konsolnya bisa dipakai
 
 Kendala
 Tidak ada kendala
+
 5. 
+
+<img width="1403" height="594" alt="Screenshot 2025-10-01 141451" src="https://github.com/user-attachments/assets/95c5e4ed-33c2-484f-965b-c26049d078b6" />
+
 Langkah Pengerjaan
 Stop semua node
 
@@ -76,6 +80,10 @@ Kendala
 Tidak ada kendala sama sekali
 
 6. 
+
+
+<img width="877" height="554" alt="Screenshot 2025-10-01 173534" src="https://github.com/user-attachments/assets/9b1a3614-de2f-4df3-bce2-703f1f4d9caa" />
+<img width="967" height="595" alt="Screenshot 2025-10-01 194511" src="https://github.com/user-attachments/assets/5f5341ce-86c9-4f7b-a364-065df9827ad1" />
 
 Langkah pengerjaan
 Sambungkan malkor ke manwe dan eru

@@ -158,7 +158,9 @@ Jawaban :  knr.exe
     Cara mengerjakannya :
     
 1. Masuk folder dari workspace
+   
 2.Masukkan beberapa filter berikut terminal :
+
 masukkan file knr.exe
 sha256sum knr.exe
 md5sum knr.exe

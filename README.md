@@ -78,19 +78,37 @@ Bingung menggunakan wireshark
 Bingung cara memasukkan file tersebut ke ubuntu
 Memerlukan banyak percobaan untuk mendapatkan capturenya
 
-7.
+14.  Soal pertama **How many packets are recorded in the pcapng file?**
+    Cara mengerjakan : tekan tombol Statistics diatas → pilih Capture File Properties → Lihat packets
+    Jawabannya  500358
 
-14.  Soal Menanyakan **How many packets are recorded in the pcapng file?**
-    Cara mengerjakan  :
+<img width="675" height="403" alt="Soal 14 nomer 1 berapa jumlah packet" src="https://github.com/user-attachments/assets/cb05f532-b8c0-4abe-a5c0-01741f0ddf66" />
 
-    1. tekan tombol Statistics diatas
-     
-    2. Pilih Capture File Properties
-    
-    3. Lihat packet.
-   
-       
-    <img width="675" height="403" alt="Soal 14 nomer 1 berapa jumlah packet" src="https://github.com/user-attachments/assets/e016e4f5-2093-43c4-b9e4-bc884754b28a" />
+
+Soal kedua **What are the user that successfully logged in?**
+Cara mengerjakannya : 1. masukkan filter di wireshark http.response.code == 200 && http contains "Success! Login successful."
+2. Klik kanan salah satu paket
+3. lalu pilih follow
+4. lalu pilih TCP stream
+
+Jawabannya : n1enna:y4v4nn4_k3m3nt4r1
+
+<img width="569" height="401" alt="Soal 14 nomer 2" src="https://github.com/user-attachments/assets/f1d689bc-1419-4095-9eff-4ef67b5d8f61" />
+
+
+
+Soal ketiga **In which stream were the credentials found?**
+
+Jawabannya: 41824 (dapat di lihat pada gambar dari soal 2, dibagian atas panel)
+
+SOal Keempat **What tools are used for brute force?**
+Cara mengerjakannya : 1. Masukkan filter http || tcp.port == 80 || tcp.port == 8000
+2. Lihat panel dan klik hypertext transfer protocol 
+
+
+<img width="656" height="388" alt="image" src="https://github.com/user-attachments/assets/7cef94b2-2234-4109-8fd6-4e66beb977d1" />
+
+
 
 
 

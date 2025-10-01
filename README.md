@@ -10,7 +10,8 @@
 1. 
 
 
-<img width="823" height="318" alt="Screenshot 2025-09-30 153946" src="https://github.com/user-attachments/assets/eed16ee9-6045-41e9-9631-d897fb71d4ad" />
+<img width="948" height="600" alt="Screenshot 2025-10-01 221223" src="https://github.com/user-attachments/assets/ed55a0e7-8edf-450a-975d-1fd58a015925" />
+
 
 
 Langkah pengerjaan:

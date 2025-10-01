@@ -1,17 +1,11 @@
-# LAPRES Praktikum Sistem Operasi Modul 4 - IT14
+# LAPRES Praktikum Kmunikasi Data dan Jaringan Komputer Modul 1 - K-23
 
 ## Anggota
 1. M. Faqih Ridho - 5027241123
 2. Kaisar Hanif Pratama - 5027241029
 
 
-## DAFTAR ISI
-- [Soal 1](#soal-1)
-- [Soal 2](#soal-2)
-- [Soal 3](#soal-3)
-- [Soal 4](#soal-4)
-
-
+## Pengerjaan
 
 1
 
@@ -83,7 +77,15 @@ Memerlukan banyak percobaan untuk mendapatkan capturenya
 
 7.
 
-14.
+14. Soal Menanyakan **How many packets are recorded in the pcapng file?**
+    Cara mengerjakan  : 1. tekan tombol Statistics diatas
+    2. Pilih Capture File Properties
+    3. Lihat packet.
+   
+       
+    <img width="675" height="403" alt="Soal 14 nomer 1 berapa jumlah packet" src="https://github.com/user-attachments/assets/e016e4f5-2093-43c4-b9e4-bc884754b28a" />
+
+
 
 
 

@@ -7,7 +7,9 @@
 
 ## Pengerjaan
 
-1
+1. 
+
+
 <img width="823" height="318" alt="Screenshot 2025-09-30 153946" src="https://github.com/user-attachments/assets/eed16ee9-6045-41e9-9631-d897fb71d4ad" />
 
 

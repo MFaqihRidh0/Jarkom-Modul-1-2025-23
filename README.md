@@ -77,9 +77,13 @@ Memerlukan banyak percobaan untuk mendapatkan capturenya
 
 7.
 
-14. Soal Menanyakan **How many packets are recorded in the pcapng file?**
-    Cara mengerjakan  : 1. tekan tombol Statistics diatas
+14.  Soal Menanyakan **How many packets are recorded in the pcapng file?**
+    Cara mengerjakan  :
+
+    1. tekan tombol Statistics diatas
+     
     2. Pilih Capture File Properties
+    
     3. Lihat packet.
    
        

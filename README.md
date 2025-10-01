@@ -23,6 +23,9 @@ Kendala:
 Bingung cara untuk membuat dan menyambungkannya
 
 2. 
+
+<img width="944" height="444" alt="Screenshot 2025-09-30 184647" src="https://github.com/user-attachments/assets/7d53344c-07a8-414a-ac7c-16290651cf0f" />
+
 Langkah pengerjaan:
 Klik kanan di Eru. Klik Configure
 Klik “Edit Network Configuration”

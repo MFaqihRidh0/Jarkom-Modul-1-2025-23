@@ -1,11 +1,16 @@
-# Jarkom-Modul-1-2025-23
+# LAPRES Praktikum Sistem Operasi Modul 4 - IT14
 
-Laporan Praktikum Modul 1 
-Komunikasi Data dan Jaringan Komputer
+## Anggota
+1. M. Faqih Ridho - 5027241123
+2. Kaisar Hanif Pratama - 5027241029
 
 
-M. Faqih Ridho - 5027241123
-Kaisar Hanif Pratama - 5027241029
+## DAFTAR ISI
+- [Soal 1](#soal-1)
+- [Soal 2](#soal-2)
+- [Soal 3](#soal-3)
+- [Soal 4](#soal-4)
+
 
 
 1
@@ -78,6 +83,7 @@ Memerlukan banyak percobaan untuk mendapatkan capturenya
 
 7.
 
+14.
 
 
 

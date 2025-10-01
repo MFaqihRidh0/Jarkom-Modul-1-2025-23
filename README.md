@@ -188,12 +188,18 @@ Jawaban : cf99990bee6c378cbf56239b3cc88276eec348d82740f84e9d5c343751f82560
 
 <img width="524" height="152" alt="image" src="https://github.com/user-attachments/assets/c165ce37-ad58-4f10-92dd-a6a5009d1529" />
 
+
     cara mengerjakannya: 
     
 a. masuk ke folder workspace di terminal
+
 b. masukkan filter
+
 c. File akan terdownload semuanya di folder kerja
+
 d.di soal dijelaskan melkor menjalankan serangan yang berbeda jadi selain yang HTTP
+
+
  
  ```
 PCAP="MelkorPlan3.pcap"

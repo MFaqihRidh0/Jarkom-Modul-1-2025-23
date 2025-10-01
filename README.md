@@ -105,7 +105,9 @@ Memerlukan banyak percobaan untuk mendapatkan capturenya
 
 
 Soal kedua **What are the user that successfully logged in?**
-Cara mengerjakannya : 1. masukkan filter di wireshark http.response.code == 200 && http contains "Success! Login successful."
+Cara mengerjakannya :
+
+1. masukkan filter di wireshark http.response.code == 200 && http contains "Success! Login successful."
 2. Klik kanan salah satu paket
 3. lalu pilih follow
 4. lalu pilih TCP stream
@@ -123,6 +125,7 @@ Jawabannya: 41824 (dapat di lihat pada gambar dari soal 2, dibagian atas panel)
 Soal Keempat **What tools are used for brute force?**
 
 Cara mengerjakannya : 
+
 1. Masukkan filter http || tcp.port == 80 || tcp.port == 8000
   
 2.  Lihat panel dan klik hypertext transfer protocol 
@@ -135,13 +138,10 @@ Cara mengerjakannya :
 
 17. Soal Pertama **What is the name of the first suspicious file?**
    Cara Mengerjakannya :
-1. Klik file
-2. Lalu pilih export object
-3. Lalu pilih HTTP
-4. Lihat folder untuk melihat file yang terdownload
+  
+Klik file -> Lalu pilih export object -> Lalu pilih HTTP -> Lihat folder untuk melihat file yang terdownload
 
 Jawaban Invoice&MSO-Request.doc
-
 
 
 Soal kedua **What is the name of the second suspicious file?**
@@ -167,7 +167,64 @@ Jawaban : 749e161661290e8a2d190b1a66469744127bc25bf46e5d0c6f2e835f4b92db18
 
 **Congratulations! Here is your flag: KOMJAR25{M4ster_4n4lyzer_lVxv2LcXUwziQXHA5LTI3C0cW}**
 
+18. Soal pertama **How many files are suspected of containing malware?**
+Jawaban : 2
 
+Soal kedua **What is the name of the first malicious file?**
+Jawaban : d0p2nc6ka3f_fixhohlycj4ovqfcy_smchzo_ub83urjpphrwahjwhv_o5c0fvf6.exe
+
+Soal ketiga **Apa nama file berbahaya yang kedua?**
+Jawaban: oiku9bu68cxqenfmcsos2aek6t07_guuisgxhllixv8dx2eemqddnhyh46l8n_di.exe
+
+Soal Keempat **What is the hash of the first malicious file?**
+Jawaban :  59896ae5f3edcb999243c7bfdc0b17eb7fe28f3a66259d797386ea470c010040
+
+Soal kelima **What is the hash of the second malicious file?**
+Jawaban : cf99990bee6c378cbf56239b3cc88276eec348d82740f84e9d5c343751f82560
+
+
+<img width="524" height="152" alt="image" src="https://github.com/user-attachments/assets/c165ce37-ad58-4f10-92dd-a6a5009d1529" />
+
+    cara mengerjakannya: 
+    
+a. masuk ke folder workspace di terminal
+b. masukkan filter
+c. File akan terdownload semuanya di folder kerja
+d.di soal dijelaskan melkor menjalankan serangan yang berbeda jadi selain yang HTTP
+ 
+ ```
+PCAP="MelkorPlan3.pcap"
+mkdir -p dump_http dump_smb dump_tftp dump_imf unpack
+tshark -r "$PCAP" --export-objects "http,dump_http"
+tshark -r "$PCAP" --export-objects "smb,dump_smb"   2>/dev/null
+tshark -r "$PCAP" --export-objects "tftp,dump_tftp" 2>/dev/null
+tshark -r "$PCAP" --export-objects "imf,dump_imf"   2>/dev/nul
+
+````
+
+**Congratulations! Here is your flag: KOMJAR25{Y0u_4re_g0dl1ke_7HXeaLQJeC1lSyMIM9XorFzV2}**
+
+19.  Soal pertama **Who sent the threatening message?**
+Jawababan  :  Your Life
+
+Soal kedua **How much ransom did the attacker demand ($)?**
+Jawaban : 1600
+
+Soal ketiga **What is the attacker's bitcoin wallet?**
+Jawaban : 1CWHmuF8dHt7HBGx5RKKLgg9QA2GmE3UyL
+
+Cara Mengerjakan
+1. Masukkan filter smtp || tcp.port==25
+2. Klik kanan salah satu paket
+3. Lalu pilih follow
+4. Lalu pilih TCP Stream
+5. Suratnya akan tersusun
+6. Baca suratnya untuk menjawab soal-soal yang diberikan 
+
+<img width="661" height="415" alt="soal 19 email penyerang" src="https://github.com/user-attachments/assets/391b1d3f-e1af-496b-8d95-55809a0bafc4" />
+
+
+**Congratulations! Here is your flag: KOMJAR25{Y0u_4re_J4rk0m_G0d_YKcNyQokVU7eUF8kq6mHfZ7vw}**
 
 
 

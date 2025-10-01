@@ -101,14 +101,52 @@ Soal ketiga **In which stream were the credentials found?**
 
 Jawabannya: 41824 (dapat di lihat pada gambar dari soal 2, dibagian atas panel)
 
-SOal Keempat **What tools are used for brute force?**
-Cara mengerjakannya : 1. Masukkan filter http || tcp.port == 80 || tcp.port == 8000
-2. Lihat panel dan klik hypertext transfer protocol 
+Soal Keempat **What tools are used for brute force?**
+
+Cara mengerjakannya : 
+1. Masukkan filter http || tcp.port == 80 || tcp.port == 8000
+  
+2.  Lihat panel dan klik hypertext transfer protocol 
 
 
 <img width="656" height="388" alt="image" src="https://github.com/user-attachments/assets/7cef94b2-2234-4109-8fd6-4e66beb977d1" />
 
+**Congratulations! Here is your flag: KOMJAR25{Brut3_F0rc3_vJF0HeOMZznoZ1t8dxTamlLLn}**
 
+
+17. Soal Pertama **What is the name of the first suspicious file?**
+   Cara Mengerjakannya :
+1. Klik file
+2. Lalu pilih export object
+3. Lalu pilih HTTP
+4. Lihat folder untuk melihat file yang terdownload
+
+Jawaban Invoice&MSO-Request.doc
+
+
+
+Soal kedua **What is the name of the second suspicious file?**
+Cara mengerjakannya : 1. sama seperti soal pertama
+
+Jawaban :  knr.exe
+
+<img width="204" height="74" alt="image" src="https://github.com/user-attachments/assets/7f520589-46a3-4c8b-b63f-58d543cbc965" />
+  
+    Soal Ketiga **What is the hash of the second suspicious file (knr.exe)?**
+    Cara mengerjakannya :
+1. Masuk folder dari workspace
+2.Masukkan beberapa filter berikut terminal :
+masukkan file knr.exe
+sha256sum knr.exe
+md5sum knr.exe
+
+Jawaban : 749e161661290e8a2d190b1a66469744127bc25bf46e5d0c6f2e835f4b92db18
+
+
+<img width="404" height="99" alt="checksum knr exe nomer 17" src="https://github.com/user-attachments/assets/dcdcda57-5bf3-4fce-a97a-395403e9b625" />
+
+
+**Congratulations! Here is your flag: KOMJAR25{M4ster_4n4lyzer_lVxv2LcXUwziQXHA5LTI3C0cW}**
 
 
 

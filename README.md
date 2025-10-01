@@ -98,14 +98,13 @@ Bingung cara memasukkan file tersebut ke ubuntu
 Memerlukan banyak percobaan untuk mendapatkan capturenya
 
 14.  Soal pertama **How many packets are recorded in the pcapng file?**
-    Cara mengerjakan : tekan tombol Statistics diatas → pilih Capture File Properties → Lihat packets
+    tekan tombol Statistics diatas → pilih Capture File Properties → Lihat packets
     Jawabannya  500358
 
 <img width="675" height="403" alt="Soal 14 nomer 1 berapa jumlah packet" src="https://github.com/user-attachments/assets/cb05f532-b8c0-4abe-a5c0-01741f0ddf66" />
 
 
 Soal kedua **What are the user that successfully logged in?**
-Cara mengerjakannya :
 
 1. masukkan filter di wireshark http.response.code == 200 && http contains "Success! Login successful."
 2. Klik kanan salah satu paket
@@ -122,7 +121,10 @@ Soal ketiga **In which stream were the credentials found?**
 
 Jawabannya: 41824 (dapat di lihat pada gambar dari soal 2, dibagian atas panel)
 
+
 Soal Keempat **What tools are used for brute force?**
+Jawaban : Fuzz Faster U Fool v2.1.0-dev
+
 
 Cara mengerjakannya : 
 
@@ -137,7 +139,7 @@ Cara mengerjakannya :
 
 
 17. Soal Pertama **What is the name of the first suspicious file?**
-   Cara Mengerjakannya :
+
   
 Klik file -> Lalu pilih export object -> Lalu pilih HTTP -> Lihat folder untuk melihat file yang terdownload
 
@@ -151,8 +153,10 @@ Jawaban :  knr.exe
 
 <img width="204" height="74" alt="image" src="https://github.com/user-attachments/assets/7f520589-46a3-4c8b-b63f-58d543cbc965" />
   
-    Soal Ketiga **What is the hash of the second suspicious file (knr.exe)?**
+  Soal Ketiga **What is the hash of the second suspicious file (knr.exe)?**
+    
     Cara mengerjakannya :
+    
 1. Masuk folder dari workspace
 2.Masukkan beberapa filter berikut terminal :
 masukkan file knr.exe
@@ -163,7 +167,6 @@ Jawaban : 749e161661290e8a2d190b1a66469744127bc25bf46e5d0c6f2e835f4b92db18
 
 
 <img width="404" height="99" alt="checksum knr exe nomer 17" src="https://github.com/user-attachments/assets/dcdcda57-5bf3-4fce-a97a-395403e9b625" />
-
 
 **Congratulations! Here is your flag: KOMJAR25{M4ster_4n4lyzer_lVxv2LcXUwziQXHA5LTI3C0cW}**
 

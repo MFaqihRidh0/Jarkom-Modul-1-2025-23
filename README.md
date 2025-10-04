@@ -7,7 +7,7 @@
 
 ## Pengerjaan
 
-1. 
+### Nomor 1
 
 
 <img width="948" height="600" alt="Screenshot 2025-10-01 221223" src="https://github.com/user-attachments/assets/ed55a0e7-8edf-450a-975d-1fd58a015925" />
@@ -22,7 +22,7 @@ Rename masing-masing menjadi Meikor, Manwe, Varda, Ulmo.
 Kendala:
 Bingung cara untuk membuat dan menyambungkannya
 
-2. 
+### Nomor 2
 
 <img width="944" height="444" alt="Screenshot 2025-09-30 184647" src="https://github.com/user-attachments/assets/7d53344c-07a8-414a-ac7c-16290651cf0f" />
 
@@ -36,7 +36,7 @@ Kendala:
 Membutuhkan banyak percobaan untuk berfungsi
 
 
-3. 
+### Nomor 3
 
 <img width="860" height="588" alt="Screenshot 2025-10-01 131312" src="https://github.com/user-attachments/assets/2a7cb827-2a65-4753-bc02-863bffb7bd2f" />
 
@@ -51,7 +51,7 @@ Kalau sudah terkoneksi. Selamat, anda sudah berhasil
 Kendala
 Tidak ada kendala sama sekali
 
-4. 
+### Nomor 4
 
 <img width="890" height="211" alt="Screenshot 2025-10-01 133703" src="https://github.com/user-attachments/assets/d228544e-ee78-4ebc-a08b-f7cc58d309af" />
 <img width="824" height="218" alt="Screenshot 2025-10-01 134439" src="https://github.com/user-attachments/assets/52475397-3443-44a6-bce5-8187a217096e" />
@@ -69,7 +69,7 @@ Cek apakah konsolnya bisa dipakai
 Kendala
 Tidak ada kendala
 
-5. 
+### Nomor 5
 
 <img width="1403" height="594" alt="Screenshot 2025-10-01 141451" src="https://github.com/user-attachments/assets/95c5e4ed-33c2-484f-965b-c26049d078b6" />
 
@@ -79,7 +79,7 @@ Stop semua node
 Kendala
 Tidak ada kendala sama sekali
 
-6. 
+### Nomor 6
 
 
 <img width="877" height="554" alt="Screenshot 2025-10-01 173534" src="https://github.com/user-attachments/assets/9b1a3614-de2f-4df3-bce2-703f1f4d9caa" />
@@ -97,7 +97,10 @@ Bingung menggunakan wireshark
 Bingung cara memasukkan file tersebut ke ubuntu
 Memerlukan banyak percobaan untuk mendapatkan capturenya
 
-14.  Soal pertama **How many packets are recorded in the pcapng file?**
+### Nomor 14
+
+Soal pertama **How many packets are recorded in the pcapng file?**
+
     tekan tombol Statistics diatas → pilih Capture File Properties → Lihat packets
     Jawabannya  500358
 
@@ -138,7 +141,9 @@ Cara mengerjakannya :
 **Congratulations! Here is your flag: KOMJAR25{Brut3_F0rc3_vJF0HeOMZznoZ1t8dxTamlLLn}**
 
 
-17. Soal Pertama **What is the name of the first suspicious file?**
+### Nomor 17
+
+Soal Pertama **What is the name of the first suspicious file?**
 
   
 Klik file -> Lalu pilih export object -> Lalu pilih HTTP -> Lihat folder untuk melihat file yang terdownload
@@ -172,7 +177,9 @@ Jawaban : 749e161661290e8a2d190b1a66469744127bc25bf46e5d0c6f2e835f4b92db18
 
 **Congratulations! Here is your flag: KOMJAR25{M4ster_4n4lyzer_lVxv2LcXUwziQXHA5LTI3C0cW}**
 
-18. Soal pertama **How many files are suspected of containing malware?**
+### Nomor 18
+
+Soal pertama **How many files are suspected of containing malware?**
 Jawaban : 2
 
 Soal kedua **What is the name of the first malicious file?**
@@ -215,7 +222,9 @@ tshark -r "$PCAP" --export-objects "imf,dump_imf"   2>/dev/nul
 
 **Congratulations! Here is your flag: KOMJAR25{Y0u_4re_g0dl1ke_7HXeaLQJeC1lSyMIM9XorFzV2}**
 
-19.  Soal pertama **Who sent the threatening message?**
+### Nomor 19
+
+Soal pertama **Who sent the threatening message?**
 Jawababan  :  Your Life
 
 Soal kedua **How much ransom did the attacker demand ($)?**
@@ -236,6 +245,47 @@ Cara Mengerjakan
 
 
 **Congratulations! Here is your flag: KOMJAR25{Y0u_4re_J4rk0m_G0d_YKcNyQokVU7eUF8kq6mHfZ7vw}**
+
+### Nomor 20
+
+Soal pertama **What encryption method is used?**
+
+Cara mengerjakan : 
+1. Buka Statistic
+2. Pilih Protocol Hierarchy
+3. Lihat disitu enkripsi hanya ada Transport Layer security (TLS)
+
+Jawaban :
+TLS
+
+<img width="533" height="308" alt="image" src="https://github.com/user-attachments/assets/9017a29c-f23b-4f32-a3fe-87caf24c5d0d" />
+
+Soal kedua **What is the name of the malicious file placed by the attacker?**
+
+Cara mengerjakan :
+1. filter menggunakan tls.handshake.type == 1 && tls.handshake.extensions_server_name
+2. lihat paket yang anomali di kolom informasinya yaitu foodgoodforliver.com
+3. lalu download file tersebut
+   
+   ```
+   tshark -o tls.keylog_file:keyslogfile.txt -r MelkorPlan5.pcap -Y 'tcp.stream==2 && http' --export-objects "http,http_stream2"
+   ```
+
+Jawaban : invest_20.dll
+
+<img width="668" height="322" alt="image" src="https://github.com/user-attachments/assets/9dec5f1b-ce90-454f-9b80-1e696f5ec143" />
+
+Soal ketiga **What is the hash of the file containing the malware?**
+Cara mengerjakan :
+1.Buka terminal
+2. Masuk folder workspace
+3. Jalankan perintah sha256sum invest_20.dll
+
+Jawaban :
+31cf42b2a7c5c558f44cfc67684cc344c17d4946d3a1e0b2cecb8eb58173cb2f
+
+**Congratulations! Here is your flag: KOMJAR25{B3ware_0f_M4lw4re_YMVSaIKrzVyvMFMUfWX4k730A}**
+
 
 
 
